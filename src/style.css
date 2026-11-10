@@ -5,6 +5,10 @@
   -moz-osx-font-smoothing: grayscale;
 
   --font: "Roboto", sans-serif;
+  --bg: #F0F4F8;
+  --color-main: #FFFFFF;
+  --bg-button: #CCE8FF;
+  --color-button: #008BFE;
 }
 
 body {
@@ -12,3 +16,11 @@ body {
   margin: 0;
 }
 
+#app {
+  padding: 0;
+  background: var(--bg);
+}
+
+h1, h2 {
+  margin: 0;
+}
